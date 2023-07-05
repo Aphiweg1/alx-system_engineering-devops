@@ -1,7 +1,3 @@
 #!/bin/bash
-
 mkdir /tmp/my_first_directory
-echo "2" > /tmp/my_first_directory/6-firstdirectory
-file /tmp/my_first_directory/
-
 
