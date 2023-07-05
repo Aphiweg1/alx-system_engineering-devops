@@ -2,9 +2,10 @@
 # Create the directory
 mkdir /tmp/my_first_directory
 # Check if the directory was created successfully
-if [ -d "/tmp/my_first_directory" ]; then
+# Check if the directory was created successfully
+if [ $? -eq 0 ]; then
     echo "Directory created successfully."
-    file /tmp/my_first_directory
+    file /tmp/my_first_directory/
 else
     echo "Failed to create directory."
 fi
